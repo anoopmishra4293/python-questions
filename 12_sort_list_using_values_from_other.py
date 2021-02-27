@@ -6,7 +6,7 @@ list2 = [ 0,   1,   1,    0,   1,   2,   2,   0,   1]
 #     for j in range(len(list2)):
 #         list1[i]==list2[j]
 
-l3 = zip(list1,list2)
-l4=list(l3)
-l4.sort(key = lambda x: x[1])
-print(l4)
+list3 = zip(list1,list2)
+list4=list(list3)
+list4.sort(key = lambda x: x[1])
+print(list4)
